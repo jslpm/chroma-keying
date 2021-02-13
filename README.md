@@ -24,5 +24,5 @@ By clícking in the green scene you can remove the background and make adjustmen
 3. Run it: `python3 chroma.py`
 
 In `chroma.py`, you can change the video and the image for the backaground:
-* In line 234, `cap = cv2.VideoCapture("greenscreen-asteroid.mp4")`, you could change `"greenscreen-asteroid.mp4"` for your video path.
-* in line 243, `bg = cv2.imread("space.jpg", cv2.IMREAD_COLOR)`, you could change `"space.jpg"` for your image background path.
+* In line 234, `cap = cv2.VideoCapture("greenscreen-asteroid.mp4")`, you could change `"greenscreen-asteroid.mp4"` for your video path
+* in line 243, `bg = cv2.imread("space.jpg", cv2.IMREAD_COLOR)`, you could change `"space.jpg"` for your image background path
